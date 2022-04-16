@@ -1,0 +1,22 @@
+.coll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card {
+    width: 31%;
+
+}
+
+#contato .container .row .coll{
+    display: block;
+}
+
+#card01 .col .card {
+    width: 90%;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px black;
+}
