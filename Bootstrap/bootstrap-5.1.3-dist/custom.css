@@ -42,6 +42,14 @@ header h1 {
     font-size: 45px;
 }
 
+#contato {
+    background-color: rgba(0, 110, 255, 0.322);
+}
+
+#contato .row {
+    padding: 0 0 15px 0;
+}
+
 #contato p {
     margin-left: 15px;
 }
@@ -54,5 +62,8 @@ header h1 {
  #contato .form .form-control {
     width: 50%;
     margin-top: 5px;
+}
 
+#contato .form .btn {
+    margin-top: 10px;
 }
