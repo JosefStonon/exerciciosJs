@@ -1,0 +1,17 @@
+#cadastro .form {
+    display: block; 
+    padding: 7px;   
+}
+
+ #cadastro .form .row .form-control {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#cadastro .form .btn {
+    margin-top: 10px;
+}
+
+#cadastro .form .estado {
+    padding-top: 7px;
+}
