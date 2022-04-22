@@ -17,8 +17,8 @@
 
                     <h1>Logo</h1>
 
-                    <ul class="nav justify-content-end nav-pills">
-                        
+                    <ul class="nav justify-content-end nav-pills"> 
+
                         <li class="nav-itens"><a class="nav-link active" href="">Home</a></li>
                         <li class="nav-itens"><a class="nav-link" href="">Sobre</a></li>
                         <li class="nav-itens"><a class="nav-link" href="">Produtos</a></li>
@@ -39,7 +39,7 @@
                 <div class="coll">
                     <h2 id="cont">Cadastro</h2>                       
                     
-                    <p><strong> Enteressado? Preencha o formulário para receber um orçamento.</strong></p>
+                    <p><strong> Interessado? Preencha o formulário para receber um orçamento.</strong></p>
                 </div>
 
                 <div class="coll-md-6 coll-sm-12">
@@ -76,7 +76,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="input-group form">
-                                    <label for="email">cidade</label>
+                                    <label for="email">Cidade</label>
                                     <input type="text" name="cidade" id="cidade" class="form-control">                               
                                 </div>
 
@@ -100,158 +100,49 @@
 
                             </div>
                         </div>
-                            
+                            <div class="row">
+                                <div class="col">
+                                    <label for="info" class="col-form-label-sm">Informações</label>
+                                    <textarea class="form-control" name="info" id="info" rows="5"></textarea>
+                                </div>
+                            </div>
 
-                           
+                            <div class="row">
+                                <div class="col">                                  
+                                    <input type="checkbox" name="promocionais" id="promocionais">
+                                    <label for="promocionais">Aceito receber mensagens promocionais</label>
+                                </div>
+                            </div>
 
-                            <botton class="btn btn-lg btn-success">Solicitar orçamento</botton>
+                            <button type="submit" class="btn btn-lg btn-success" id="form02">Solicitar orçamento</button>
                             
                     </form>
+                    <p><a href="cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber novidades</p>
                 </div>
             </div>
         </div>
+
+      <div class="modal fade" id="modal-1">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title">Inscrever-me na lista</h5>
+                      <button class="btn-close" data-bs-dismiss="modal" area-label="close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <h6>Preencha os campos para receber novidades e promoções</h6>
+                      <form class="form-inline">
+                          <input type="text" class="form-control mb-3" name="nome" placeholder="nome">
+                          <input type="text" class="form-control mb-3" name="email" placeholder="email" required>
+                          <button type="submit" class="btn btn-success">Receber novidades</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
 
     </section>
-
-
-    <div class="modal fade" id="modal-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                        <h5 class="modal-tatle">Produto 1</h5>
-
-                        <botton class="btn-close" data-bs-dismiss="modal" area-label="Close"></botton>
-                </div>
-                <div class="modal-body">
-
-                    <h6>Confira o tanho e os preços</h6>
-
-                    <table class="table table-hover table-striped">
-                        <thead>
-                            <tr>
-                                <th>Tamanho</th>
-                                <th>Valor</th>
-                            </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>38</td>
-                            <td>100</td>
-                        </tr>
-
-                        <tr>
-                            <td>40</td>
-                            <td>200</td>
-                        </tr>
-
-                        <tr>
-                            <td>43</td>
-                            <td>300</td>
-                        </tr>
-                    </tbody>
-                    </table>
-                </div>
-                <div class="modal-footer">
-                    <botton class="btn-close" data-bs-dismiss="modal" area-label="Close"></botton>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="modal fade" id="modal-2">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                        <h5 class="modal-tatle">Produto 2</h5>
-
-                        <botton class="btn-close" data-bs-dismiss="modal" area-label="Close"></botton>
-                </div>
-                <div class="modal-body">
-
-                    <h6>Confira o tanho e os preços</h6>
-
-                    <table class="table table-hover table-striped">
-                        <thead>
-                            <tr>
-                                <th>Tamanho</th>
-                                <th>Valor</th>
-                            </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>35</td>
-                            <td>100</td>
-                        </tr>
-
-                        <tr>
-                            <td>37</td>
-                            <td>280</td>
-                        </tr>
-
-                        <tr>
-                            <td>44</td>
-                            <td>390</td>
-                        </tr>
-                    </tbody>
-                    </table>
-                </div>
-                <div class="modal-footer">
-                    <botton class="btn-close" data-bs-dismiss="modal" area-label="Close"></botton>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="modal fade" id="modal-3">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                        <h5 class="modal-tatle">Produto 3</h5>
-
-                        <botton class="btn-close" data-bs-dismiss="modal" area-label="Close"></botton>
-                </div>
-                <div class="modal-body">
-
-                    <h6>Confira o tanho e os preços</h6>
-
-                    <table class="table table-hover table-striped">
-                        <thead>
-                            <tr>
-                                <th>Tamanho</th>
-                                <th>Valor</th>
-                            </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>39</td>
-                            <td>150</td>
-                        </tr>
-
-                        <tr>
-                            <td>41</td>
-                            <td>250</td>
-                        </tr>
-
-                        <tr>
-                            <td>45</td>
-                            <td>350</td>
-                        </tr>
-                    </tbody>
-                    </table>
-                </div>
-                <div class="modal-footer">
-                    <botton class="btn-close" data-bs-dismiss="modal" area-label="Close"></botton>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    
+       
 
 
 
