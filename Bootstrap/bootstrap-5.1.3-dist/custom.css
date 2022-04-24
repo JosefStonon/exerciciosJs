@@ -74,16 +74,19 @@ header h1 {
     margin-left: 100px;
 }
 
+#carrosa {
+    display: flex;
+}
+
 .destaque {
-    float: right;
-    width: 10%;
-    height: 100%;
+    margin-right: -210px;
 }
 
 .destaque p {
-    height: 100%;
-    font-size: 50px;
+    font-size: 150px;
     font-family: 'Alumni Sans Inline One', cursive;
-    writing-mode: vertical-lr;
-    
+    writing-mode: vertical-rl;
+    margin-left: 52px;
+    margin-right: 101px;
+    transform: rotate(180deg);
 }
