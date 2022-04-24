@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
 .coll {
     display: flex;
     flex-direction: row;
@@ -70,4 +72,18 @@ header h1 {
 
 .carousel {
     margin-left: 100px;
+}
+
+.destaque {
+    float: right;
+    width: 10%;
+    height: 100%;
+}
+
+.destaque p {
+    height: 100%;
+    font-size: 50px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    writing-mode: vertical-lr;
+    
 }
