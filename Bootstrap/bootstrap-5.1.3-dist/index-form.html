@@ -49,7 +49,7 @@
                             <div class="col">
                                 <div class="input-group form">
                                     <label for="name">Nome</label>
-                                    <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">                               
+                                    <input class="form-control" type="text" name="nome" placeholder="Digite seu nome" required>                               
                                 </div>
     
                             </div>
@@ -57,7 +57,7 @@
                             <div class="col">
                                 <div class="input-group form">
                                     <label for="email">Email</label>
-                                    <input class="form-control" type="text" name="email" placeholder="Digite seu email">                               
+                                    <input class="form-control" type="text" name="email" placeholder="Digite seu email" required>                               
                                 </div>
 
                             </div>
@@ -66,7 +66,7 @@
                             <div class="col">
                                 <div class="input-group form">
                                     <label for="telefone">Telefone</label>
-                                    <input class="form-control" type="text" name="telefone" placeholder="Digite seu telefone">                               
+                                    <input class="form-control" type="text" name="telefone" placeholder="Digite seu telefone" required>                               
                                 </div>
                             </div>
                         </div>
@@ -77,14 +77,14 @@
                             <div class="col">
                                 <div class="input-group form">
                                     <label for="email">Cidade</label>
-                                    <input type="text" name="cidade" id="cidade" class="form-control">                               
+                                    <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Digite sua Cidade" required>                               
                                 </div>
 
                             </div>
 
                             <div class="col estado">
                                 <label for="estado">Estado</label>
-                                    <select name="estado" id="estado" class="form-control">
+                                    <select name="estado" id="estado" class="form-control" required>
                                         <option value="">Selecione um estado</option>
                                         <option value="sp">São Paulo</option>
                                         <option value="ba">Bahia</option>
@@ -95,11 +95,25 @@
                             <div class="col">
                                 <div class="input-group form">
                                     <label for="cep">Cep</label>
-                                    <input type="text" name="cep" id="cep" class="form-control">                               
+                                    <input type="text" name="cep" id="cep" class="form-control" placeholder="Digite seu Cep" required>                               
                                 </div>
 
                             </div>
                         </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="endereco">Endereço</label>
+                                    <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Digite seu endereço" required>
+                                </div>
+
+                                <div class="col">
+                                    <label for="complemento">Complemento</label>
+                                    <input type="text" name="complemento" id="complemento" class="form-control">
+                                </div>
+                                
+                            </div>
+
                             <div class="row">
                                 <div class="col">
                                     <label for="info" class="col-form-label-sm">Informações</label>
